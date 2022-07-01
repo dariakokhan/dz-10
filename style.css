@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-image: url("bg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.content{
+    color: black;
+    text-align:center;
+    width: 450px;
+    margin: auto;
+    padding-top: 120px;
+
+}
+.title{
+    margin-bottom: 25px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.big-title{
+    font-size: 100px;
+    margin-bottom: 28px;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.but{
+    background-color: darkseagreen;
+    text-decoration: none;
+    display: block;
+    color: black;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 180px;
+    height: 50px;
+    margin: auto;
+    font-size: 40px;
+    font-family: 'Lobster Two', cursive;
+
+}
+
+.but:hover{
+    background-color: rgb(198, 227, 198);
+}
